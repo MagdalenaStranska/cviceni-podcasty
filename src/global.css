@@ -1,7 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&display=swap&subset=latin-ext');
 
+
 * {
   box-sizing: border-box;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
 }
 
 html {
@@ -10,8 +17,12 @@ html {
 
 body {
   color: #666;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; 
+  margin: 0;
 }
-
+/*
 .episodes-list {
   max-width: 20rem;
   margin: 5rem auto;
@@ -41,3 +52,4 @@ body {
 .episode__guest {
   color: #999;
 }
+*/
